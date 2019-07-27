@@ -8,4 +8,4 @@ input.No\ name=No value
 duration=0
 end=
 calc=localhost\:45379
-output.z=\ 666663.000715 
+output.z=\ 3.000715 
