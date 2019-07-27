@@ -2,10 +2,10 @@
 state=running
 start=17\:55\:29
 code=R
-info=Results parsed\: {1\=1.0, z\= 3.000715XXXXXXX }
+info=Results parsed\: {1\=1.0, z\= 3.000715 }
 output={z\= 3.000715 }
 input.No\ name=No value
 duration=0
 end=
 calc=localhost\:45379
-output.z=\ 3.000715 
+output.z=\ 666663.000715 
