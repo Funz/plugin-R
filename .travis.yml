@@ -31,7 +31,6 @@ script:
 
 before_deploy:
   - ant clean pack-with-funz
-  - zip -r FunzR.zip Funz*
   
 deploy:
   provider: releases
