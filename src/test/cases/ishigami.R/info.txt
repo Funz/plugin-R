@@ -1,0 +1,11 @@
+#Fri Jul 26 18:13:42 CEST 2019
+state=running
+start=18\:13\:41
+code=R
+info=Results parsed\: {1\=1.0, i\= 1.484865 }
+output={i\= 1.484865 }
+input.No\ name=No value
+duration=0
+end=
+calc=localhost\:35175
+output.i=\ 1.484865 
