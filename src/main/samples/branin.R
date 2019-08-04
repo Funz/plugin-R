@@ -4,5 +4,5 @@ branin <- function(x) {
 	(x2 - 5/(4*pi^2)*(x1^2) + 5/pi*x1 - 6)^2 + 10*(1 - 1/(8*pi))*cos(x1) + 10
 }
 
-cat(' ',branin(c( ?x1 , ?x2 )),"\n")
+cat('z=',branin(c( ?x1 , ?x2 )),"\n")
 
