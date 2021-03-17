@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/Funz/plugin-R.png)](https://travis-ci.org/Funz/plugin-R)
+[![.github/workflows/ant.yml](https://github.com/Funz/plugin-R/actions/workflows/ant.yml/badge.svg)](https://github.com/Funz/plugin-R/actions/workflows/ant.yml)
 
 # Funz plugin: R
 
