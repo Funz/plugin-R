@@ -5,7 +5,7 @@ for /F "TOKENS=1,2,*" %%a in ('tasklist /FI "IMAGENAME eq R.exe"') do set PID_R=
 echo %PID_R% > PID
 
 :loop
-tasklist | find /i " %PID_R% " >nul
+tasklist | findstr " %PID_R% " >nul
 if not errorlevel 1 (
     timeout /t 1 >nul
     goto :loop
@@ -14,6 +14,6 @@ if not errorlevel 1 (
 del /f PID
 
 findstr "Err" *.Rout
-if  errorlevel 1 (
+if not errorlevel 1 (
     exit 1
 )
